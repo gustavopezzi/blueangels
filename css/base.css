@@ -1,0 +1,28 @@
+#canvas-container {
+    display: block;
+    height: 100%;
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -250px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:#9a716d;
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#9a716d, endColorstr=#324f86);
+    background-image:-moz-linear-gradient(top, #9a716d 0%, #324f86 40%,#324f86 59%,#9a716d 100%);
+    background-image:linear-gradient(top, #9a716d 0%, #324f86 40%,#324f86 59%,#9a716d 100%);
+    background-image:-webkit-linear-gradient(top, #9a716d 0%, #324f86 40%,#324f86 59%,#9a716d 100%);
+    background-image:-o-linear-gradient(top, #9a716d 0%, #324f86 40%,#324f86 59%,#9a716d 100%);
+    background-image:-ms-linear-gradient(top, #9a716d 0%, #324f86 40%,#324f86 59%,#9a716d 100%);
+    background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#9a716d), color-stop(40%,#324f86),color-stop(59%,#324f86),color-stop(100%,#9a716d));
+}
